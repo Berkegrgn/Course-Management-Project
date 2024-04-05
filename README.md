@@ -1,23 +1,20 @@
-Proje Açıklaması:
+Proje Açıklaması 🔍
 
 Proje, Python Django Framework ve SQLite veritabanı kullanılarak geliştirilen bir kurs uygulamasını içermektedir. Temel amacımız, kullanıcıların çevrimiçi kurs bilgilerine ulaşmalarını sağlamak ve yetkilendirilmiş kullanıcılara kursları ekleyip yönetme imkanı sunmaktır. Ayrıca, kullanışlı bir yönetim paneli aracılığıyla sitemize giren ve çıkan kullanıcıları takip etme olanağı sağlamaktayız.
 
 ----------------------------------------------------------------------
 
-Proje Özellikleri:
+Proje Özellikleri 📝
 
-Kullanıcı Kaydı:
-Kullanıcılar, platforma kayıt olabilir ve çeşitli kurslara erişebilirler.
+Kullanıcı Kaydı: Kullanıcılar, platforma kayıt olabilir ve çeşitli kurslara erişebilirler.
 
-Kurs Yönetimi:
-Yetkilendirilmiş kullanıcılar, kursları ekleyebilir, düzenleyebilir ve kaldırabilirler.
+Kurs Yönetimi: Yetkilendirilmiş kullanıcılar, kursları ekleyebilir, düzenleyebilir ve kaldırabilirler.
 
-Admin Paneli:
-Admin paneli, kullanıcı giriş çıkışlarını denetleyebilir ve gerektiğinde müdahale edebilir. Ayrıca, admin paneli üzerinden kurs ekleme ve silme işlemleri gerçekleştirilebilir.
+Admin Paneli: Admin paneli, kullanıcı giriş çıkışlarını denetleyebilir ve gerektiğinde müdahale edebilir. Ayrıca, admin paneli üzerinden kurs ekleme ve silme işlemleri gerçekleştirilebilir.
 
 ----------------------------------------------------------------------
 
-Kullanılan Teknolojiler:
+Kullanılan Teknolojiler 🛠
 
 Geliştirme Ortamı: Visual Studio Code
 
@@ -29,6 +26,6 @@ Arayüz: HTML, CSS ve Bootstrap kullanılarak geliştirilmiştir.
 
 ----------------------------------------------------------------------
 
-Kazanımlar:
+Kazanımlar ✔
 
 Bu projenin geliştirilmesi sürecinde katılımcılar, Django Framework ve SQLite veritabanı kullanımı konusunda deneyim kazanacaklardır. Ayrıca, kullanıcı yönetimi, kurs yönetimi ve admin paneli gibi kritik yeteneklerin yanı sıra, web tabanlı bir uygulamanın nasıl tasarlanıp yönetileceği konusunda da pratik deneyim elde edeceklerdir.
