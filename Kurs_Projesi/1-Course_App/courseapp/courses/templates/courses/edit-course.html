@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'courses/css/style.css' %}">
+{% endblock %}
+
+{% block page_title %}
+    Edit Course
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <form method="POST" novalidate enctype="multipart/form-data" class="p-4 rounded shadow-lg bg-white">
+                    {% csrf_token %}
+                    <h3 class="mb-4">Kurs Düzenle</h3>
+                    {% include "partials/_form.html" %}
+                    <button class="btn btn-outline-success btn-block mt-3" type="submit">Kaydet</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="mb-5"></div>
+{% endblock %}
+
+{% block js_files %}
+    <script src="{% static 'courses/js/script.js' %}"></script>
+{% endblock %}

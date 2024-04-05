@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'courses/css/style.css' %}">
+{% endblock %}
+
+{% block page_title %}
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5"> <!-- Üst boşluğu mt-5 olarak değiştir -->
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body shadow">
+                    <h2 class="card-title text-center">Giriş Yap</h2>
+                    <hr>
+                    <form method="post">
+                        {% csrf_token %}
+                        {% include "partials/_form.html" %}
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-outline-success">Giriş Yap</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js_files %}
+    <script src="{% static 'courses/js/script.js' %}"></script>
+{% endblock %}

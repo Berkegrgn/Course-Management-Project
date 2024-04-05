@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+
+{% block css_files %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+{% endblock css_files %}
+
+{% block page_title %}
+    Anasayfa
+{% endblock page_title %}
+
+{% block content %}
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-3">
+                <!--menu-->
+                {% include "courses/partials/_categories.html" %}
+            </div>
+            <div class="col-9">
+                <h1>Anasayfa</h1>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
+{% block js_files %}{% endblock js_files %}

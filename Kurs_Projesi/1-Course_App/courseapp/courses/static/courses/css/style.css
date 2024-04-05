@@ -1,0 +1,27 @@
+body {
+    background-color: #e2e4e5;
+}
+
+.average-rating {
+    color: #354f52; /* Yazı rengi */
+    font-size: 1.1rem; /* Yazı boyutu */
+    font-weight: normal; /* Kalın font */
+    margin-top: 0px; /* Üst boşluk */
+}
+
+
+
+.errorlist {
+    list-style-type: none;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.invalid input, invalid textarea {
+    border-color: #dc3545;
+}
+
+
+
+

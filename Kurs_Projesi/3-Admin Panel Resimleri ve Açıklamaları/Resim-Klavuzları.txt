@@ -1,0 +1,26 @@
+Admin Paneli
+
+Resim 1: Yönetici paneline erişim sağlayarak kullanıcıları, kurs bilgilerini, kategori bilgilerini ve yapılan yorum bilgilerini yönetebilirsiniz.
+--------------------------
+Kullanıcı Yönetimi
+
+Resim 2: Admin panelinden kayıtlı kullanıcıları görüntüleyebilir, kullanıcıların bilgilerini güncelleyebilir ve görev durumlarını yönetebilirsiniz.
+--------------------------
+Kurs Yönetimi
+
+Resim 3.1: Uygulamadaki mevcut kursları görüntüleyebilir ve hangilerinin ana sayfada gösterileceğine karar verebilirsiniz.
+Resim 3.2: Kursların içeriğini düzenleme ve güncelleme işlemlerini gerçekleştirebilirsiniz.
+--------------------------
+Kategori Yönetimi
+
+Resim 4.1: Uygulamadaki kategorileri ve her kategoride kaç kurs olduğunu görebilirsiniz.
+Resim 4.2: Kategorileri düzenleme veya silme işlemlerini gerçekleştirebilirsiniz.
+--------------------------
+Yorum ve Puanlar
+
+Resim 5: Kurslara yapılan yorumları ve puanları görüntüleyebilirsiniz.
+--------------------------
+Slider Yönetimi
+
+Resim 6.1: Ana sayfadaki slider görsellerinin bilgilerini görüntüleyebilirsiniz.
+Resim 6.2: Slider görsellerini düzenleme veya kaldırma işlemlerini gerçekleştirebilirsiniz.

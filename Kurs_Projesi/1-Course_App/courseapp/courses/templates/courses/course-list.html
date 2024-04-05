@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'courses/css/style.css' %}">
+{% endblock %}
+
+{% block page_title %}
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive"> <!-- Make table responsive for smaller screens -->
+                    <table class="table table-striped table-hover"> <!-- Apply Bootstrap table classes -->
+                        <thead class="thead-light"> <!-- Apply Bootstrap light header -->
+                            <tr>
+                                <th style="width:120px;"></th>
+                                <th>Title</th>
+                                <th>Slug</th>
+                                <th style="width:120px;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for course in courses %}
+                                <tr>
+                                    <td>
+                                        <img src="{{ course.image.url }}" class="img-fluid rounded" width="100"> <!-- Add rounded corners to the image -->
+                                    </td>
+                                    <td>{{ course.title }}</td>
+                                    <td>{{ course.slug }}</td>
+                                    <td>
+                                        <a href="{% url 'course_edit' course.id %}" class="btn btn-outline-success btn-sm">Edit</a> <!-- Change button style to outline -->
+                                        <a href="{% url 'course_delete' course.id %}" class="btn btn-outline-danger btn-sm">Delete</a> <!-- Change button style to outline -->
+                                    </td>
+                                </tr>                        
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block js_files %}
+    <script src="{% static 'courses/js/script.js' %}"></script>
+{% endblock %}
