@@ -1,6 +1,6 @@
-Proje Açıklaması
+Proje Açıklaması 🔍 
 
-🔍 Projenin Tanımı: Python Django Framework ve SQLite veritabanı kullanılarak geliştirilen bir kurs uygulamasını içermektedir. Temel amacımız, kullanıcıların çevrimiçi kurs bilgilerine ulaşmalarını sağlamak ve yetkilendirilmiş kullanıcılara kursları ekleyip yönetme imkanı sunmaktır. Ayrıca, kullanışlı bir yönetim paneli aracılığıyla sitemize giren ve çıkan kullanıcıları takip etme olanağı sağlamaktayız.
+-Projenin Tanımı: Python Django Framework ve SQLite veritabanı kullanılarak geliştirilen bir kurs uygulamasını içermektedir. Temel amacımız, kullanıcıların çevrimiçi kurs bilgilerine ulaşmalarını sağlamak ve yetkilendirilmiş kullanıcılara kursları ekleyip yönetme imkanı sunmaktır. Ayrıca, kullanışlı bir yönetim paneli aracılığıyla sitemize giren ve çıkan kullanıcıları takip etme olanağı sağlamaktayız.
 
 ------------------------------------------
 
