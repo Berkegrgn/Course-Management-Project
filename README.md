@@ -20,8 +20,11 @@ Admin paneli, kullanıcı giriş çıkışlarını denetleyebilir ve gerektiğin
 Kullanılan Teknolojiler:
 
 Geliştirme Ortamı: Visual Studio Code
+
 Veritabanı: SQLite
+
 Programlama Dili: Python
+
 Arayüz: HTML, CSS ve Bootstrap kullanılarak geliştirilmiştir.
 
 ----------------------------------------------------------------------
