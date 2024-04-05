@@ -1,0 +1,28 @@
+Gereksinimler
+
+- Bilgisayarınızda Python kurulu olmalıdır. Eğer kurulu değilse, Python'un resmi web sitesinden indirip kurabilirsiniz: Python Resmi Sitesi
+
+- Bilgisayarınızda Visual Studio Code editörü kurulu olmalıdır.
+
+--------------------------------------------
+
+Kurulum
+
+- İndirdiğiniz proje dosyasını Visual Studio Code ile açın.
+
+- Visual Studio Code içindeki "Extensions" (Uzantılar) bölümünden "Python" ve "Django" paketlerini indirin.
+
+Proje dosyasının içinde olduğunuzdan emin olduktan sonra, terminali açın ve şu üç eklentiyi pip ile kurun:
+
+- Django: pip install django
+- Pillow: pip install pillow
+- Django CKEditor: pip install django-ckeditor
+
+--------------------------------------------
+
+Kurulumları tamamladıktan sonra, terminal aracılığıyla uygulamayı çalıştırın
+
+- python manage.py runserver
+
+Bu adımları takip ederek GitHub proje kurulumunu tamamlayabilirsiniz.
+
