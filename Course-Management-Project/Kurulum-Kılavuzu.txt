@@ -1,8 +1,8 @@
 Gereksinimler
 
-- Bilgisayarınızda Python kurulu olmalıdır. Eğer kurulu değilse, Python'un resmi web sitesinden indirip kurabilirsiniz: Python Resmi Sitesi
+- Bilgisayarınızda Python kurulu olmalıdır. Eğer kurulu değilse, Python'un resmi web sitesinden indirip kurabilirsiniz: https://www.python.org/
 
-- Bilgisayarınızda Visual Studio Code editörü kurulu olmalıdır.
+- Bilgisayarınızda Visual Studio Code editörü kurulu olmalıdır.Eğer kurulu değilse: https://code.visualstudio.com/
 
 --------------------------------------------
 
